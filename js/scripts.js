@@ -36,4 +36,9 @@ c.classList.remove("blur");
 });
 });
 
+function playVideo() {
+    var video = document.getElementById("video");
+    video.play();
+};
+
 
