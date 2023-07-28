@@ -303,16 +303,42 @@ width: 600px;
 
  /* projectos/ano de serviço */
 
+ .justify-center{
+justify-content: center;
+display: block;
+
+ }
+
 .background-projeto{
   display: flex;
   background-color: #000;
   color: white;
-  justify-content: center;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 35px;
   align-items: center;
 }
 
 .background-projeto img{
+  display: flex;
  width: 60px;
+}
+
+.projecto1{
+  display: flex;
+}
+
+.experienca1{
+  display: flex;
+}
+
+.spantextwhite {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.pwhite2 {
+  padding-left: 10px;
 }
 
 
