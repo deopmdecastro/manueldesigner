@@ -370,6 +370,7 @@ video {
   color: white;
   justify-content: center;
   padding-bottom: 40px;
+ padding-top: 45px; 
   align-items: center;
   }
 
@@ -397,6 +398,9 @@ video {
   padding-left: 10px;
 }
 
+#btn-solititar{
+  margin-bottom: 45px;
+}
 
 /* projectos/ano de serviço */
 
