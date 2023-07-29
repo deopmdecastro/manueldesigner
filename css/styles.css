@@ -470,10 +470,11 @@ video {
 
 /* projectos/ano de serviço */
 
-.justify-center {
+.sobre-habilidade {
   justify-content: center;
   display: flex;
-
+padding-top: 30px;
+margin-bottom: 30px;
 }
 
 .sobre {
