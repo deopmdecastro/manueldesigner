@@ -12,6 +12,10 @@ body {
 
 /*body*/
 
+h2{
+  font-size: 2rem;
+}
+
 /*menu*/
 
 header {
@@ -182,9 +186,10 @@ main h1 {
   max-width: 900px;
 }
 .sobre img{
+  margin-right: 50px;
   width: 400px;
 }
-.sobre a{
+.sobre p{
 text-align: justify;
 }
 
@@ -214,7 +219,7 @@ margin: 30px;
   background: rgb(26,26,26);
 background: linear-gradient(120deg, rgba(26,26,26,1) 0%, rgba(0,0,0,0.19931722689075626) 100%);
   border-radius: 10px;
-  padding: 20px 30px 60px 20px;
+  padding: 20px 40px 60px 20px;
   width: 200px;
   text-align: left;
 }
