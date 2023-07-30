@@ -78,6 +78,11 @@ nav ul li a:hover {
   color: linear-gradient(90deg, rgba(65, 195, 212, 1) 0%, rgba(0, 159, 210, 1) 100%);
 }
 
+nav ul li a:active {
+  color: rgb(65, 195, 212);
+  color: linear-gradient(90deg, rgba(65, 195, 212, 1) 0%, rgba(0, 159, 210, 1) 100%);
+}
+
 nav ul li .btn-comprar {
   text-decoration: none !important;
 }
@@ -220,7 +225,7 @@ main h1 {
 
 .sobre img {
   margin-right: 50px;
-  width: 315px;
+  width: 326px;
 }
 
 .sobre p {
@@ -540,6 +545,14 @@ margin-bottom: 30px;
   display: block;
 }
 
+
+.bold-blue{
+  font-weight: bold;
+  color: rgb(65, 195, 212);
+  color: linear-gradient(90deg, rgba(65, 195, 212, 1) 0%, rgba(0, 159, 210, 1) 100%);
+  
+}
+
 .background-projeto {
   display: flex;
   background-color: #000;
@@ -608,8 +621,9 @@ hr {
   flex: 1;
   padding: 8px;
   border-radius: 5px 0px 0px 5px;
-  border: 2px solid rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
   background-color: #000;
+  color: white;
 }
 
 .subscribe-button {
@@ -619,7 +633,7 @@ hr {
   border-radius: 0px 5px 5px 0px;
   background: rgb(65, 195, 212);
   background: linear-gradient(90deg, rgba(65, 195, 212, 1) 0%, rgba(0, 159, 210, 1) 100%);
-  border: 2px solid rgba(0, 159, 210, 1);
+  border: 1px solid rgba(0, 159, 210, 1);
   transition: filter 0.3s ease;
   cursor: pointer;
 
@@ -627,6 +641,7 @@ hr {
 
 
 .subscribe-button:hover {
+
   color: white;
   padding: 8px 15px;
   margin-left: 0px;
@@ -708,7 +723,7 @@ footer {
 
 .footer-form input[type="email"] {
   padding: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
   margin-right: 5px;
   width: 200px;
 }
