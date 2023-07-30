@@ -331,7 +331,7 @@ main h1 {
 /*sobre mim*/
 
 
-/*soerviços*/
+/*serviços*/
 
 .fundo-preto {
   text-align: center;
@@ -398,7 +398,54 @@ main h1 {
 
 
 
-/*soerviços*/
+/*serviços*/
+
+
+/*portfolio*/
+
+.portfolio{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  
+}
+
+.portfolio h2{
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+
+.image-slide{
+  border-radius: 5px;
+  width: 150px;
+  height: 100px;
+  padding: 50px;
+  background-color: white;
+  margin: 10px;
+  justify-content: center;
+
+}
+
+.slide{
+  background-color: #000000;
+  justify-content: center;
+  display: flex;
+ 
+}
+
+.slide-1{
+  width: 810px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+
+/*portfolio*/
 
 /* Media Query para menu hamburguer */
 @media screen and (max-width: 768px) {
