@@ -426,13 +426,21 @@ background: linear-gradient(120deg, rgba(65,195,212,0) 0%, rgba(28,175,211,1) 17
 
 .image-slide {
   border-radius: 5px;
-  width: 150px;
-  height: 100px;
-  padding: 50px;
+  width: 250px;
+  height: 200px;
+  padding: auto;
   background-color: white;
   margin: 10px;
   justify-content: center;
+  border: 1px solid #ebebeb;
 
+}
+
+.image-slide img{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
 }
 
 .slide {
@@ -443,7 +451,7 @@ background: linear-gradient(120deg, rgba(65,195,212,0) 0%, rgba(28,175,211,1) 17
 }
 
 .slide-1 {
-  width: 810px;
+  width: 820px;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 100px;
