@@ -83,12 +83,12 @@ nav ul li a:active {
   color: linear-gradient(90deg, rgba(65, 195, 212, 1) 0%, rgba(0, 159, 210, 1) 100%);
 }
 
-nav ul li .btn-comprar {
+nav ul li .btn-contact {
   text-decoration: none !important;
 }
 
 
-nav ul li .btn-comprar:hover {
+nav ul li .btn-contact:hover {
   color: #fff;
   text-decoration: none !important;
 }
@@ -121,7 +121,7 @@ main h1 {
   color: white;
 }
 
-.btn-comprar,
+.btn-contact,
 .btn-solititar {
   display: inline-block;
   background: rgb(65, 195, 212);
@@ -135,7 +135,7 @@ main h1 {
   transition: filter 0.3s ease;
 }
 
-.btn-comprar:hover {
+.btn-contact:hover {
   background: rgb(65, 195, 212);
   background: linear-gradient(90deg, rgba(65, 195, 212, 1) 0%, rgba(0, 159, 210, 1) 100%);
   filter: brightness(1.2);
@@ -161,6 +161,10 @@ main h1 {
 
 .welcome-content h1 {
   margin-bottom: 10px;
+}
+
+.welcome-content p {
+  text-align: justify;
 }
 
 .wave-image {
@@ -474,6 +478,7 @@ background: linear-gradient(120deg, rgba(65,195,212,0) 0%, rgba(28,175,211,1) 17
     left: 0;
     background-color: #000;
     width: 100%;
+    
   }
 
   .container {
@@ -494,7 +499,7 @@ background: linear-gradient(120deg, rgba(65,195,212,0) 0%, rgba(28,175,211,1) 17
     display: block;
   }
 
-  .menu-links .btn-comprar {
+  .menu-links .btn-contact {
     display: block;
     margin-top: 12px;
     margin-left: 40px;
@@ -515,6 +520,7 @@ background: linear-gradient(120deg, rgba(65,195,212,0) 0%, rgba(28,175,211,1) 17
     transition: filter 0.3s ease;
   }
 
+ 
 
   
 }
