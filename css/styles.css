@@ -744,6 +744,7 @@ footer {
 }
 
 .footer-contact {
+  flex-wrap: wrap;
   padding-right: 100px;
   padding-left: 100px;
   text-align: left;
