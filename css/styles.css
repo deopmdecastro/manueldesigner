@@ -520,6 +520,13 @@ background: linear-gradient(120deg, rgba(65,195,212,0) 0%, rgba(28,175,211,1) 17
     transition: filter 0.3s ease;
   }
 
+  .footer-contact {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+
+
  
 
   
@@ -691,6 +698,7 @@ hr {
 }
 
 .subscribe-button {
+  width: 180px;
   color: white;
   padding: 8px 15px;
   margin-left: 0px;
