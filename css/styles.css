@@ -686,10 +686,11 @@ hr {
   align-items: center;
   max-width: 300px;
   align-items: flex-end;
+    flex-direction: row; 
+    align-items: baseline;
 }
 
 .email-input {
-  flex: 1;
   padding: 8px;
   border-radius: 5px 0px 0px 5px;
   border: 1px solid rgb(255, 255, 255);
@@ -698,14 +699,13 @@ hr {
 }
 
 .subscribe-button {
-  width: 180px;
+  border: none;
   color: white;
-  padding: 8px 15px;
+  padding: 9px 15px;
   margin-left: 0px;
   border-radius: 0px 5px 5px 0px;
   background: rgb(65, 195, 212);
   background: linear-gradient(90deg, rgba(65, 195, 212, 1) 0%, rgba(0, 159, 210, 1) 100%);
-  border: 1px solid rgba(0, 159, 210, 1);
   transition: filter 0.3s ease;
   cursor: pointer;
 
@@ -713,16 +713,15 @@ hr {
 
 
 .subscribe-button:hover {
-
   color: white;
-  padding: 8px 15px;
+  padding: 9px 15px;
   margin-left: 0px;
   border-radius: 0px 5px 5px 0px;
   background: rgb(65, 195, 212);
   background: linear-gradient(90deg, rgba(65, 195, 212, 1) 0%, rgba(0, 159, 210, 1) 100%);
-  border: 1px solid rgba(0, 159, 210, 1);
   filter: brightness(1.2);
   cursor: pointer;
+  border: none;
 }
 
 
@@ -792,26 +791,10 @@ footer {
 .footer-form form {
   display: flex;
   box-sizing: border-box;
+  flex-direction: row;
+  align-items: baseline;
 }
 
-.footer-form input[type="email"] {
-  padding: 5px;
-  border: 1px solid #ffffff;
-  margin-right: 5px;
-  width: 200px;
-}
-
-.footer-form button {
-  padding: 5px 10px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
-
-.footer-form button:hover {
-  background-color: #555;
-}
 
 
 
